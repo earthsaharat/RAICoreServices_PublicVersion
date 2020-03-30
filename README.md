@@ -49,5 +49,5 @@ When you have database that contain images. Images will save to the folder media
 The image that user uploaded, it saved in
 
 ```
-RAICoreServices_PublicVersion/media/<your_module_name>/<your_static>
+RAICoreServices_PublicVersion/media/<your_module_name>/image/<image_file>
 ```

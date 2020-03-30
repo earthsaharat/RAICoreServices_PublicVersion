@@ -4,6 +4,12 @@ This is the template of Django project of Robotics Laboratory 3 (Smart Lab)
 
 You need to follow this project format before upload your code to the real server
 
+## Outline
+- [Installation](#installation)
+- [File System](#file-system)
+  - [Application/Module](#application/module)
+  - [Template](#template)
+
 ## Installation
 
 1. Install Python3, Django

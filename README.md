@@ -6,8 +6,9 @@ You need to follow this project format before upload your code to the real serve
 
 ## Installation
 
-1. Download this git
-2. Run server
+1. Install Python3, Django
+2. Download this git
+3. Run server `python3 manage.py runserver `
 
 now you can run this project
 

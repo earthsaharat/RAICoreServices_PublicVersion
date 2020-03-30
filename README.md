@@ -97,6 +97,6 @@ def home(request):
 
 The variable `raiuser` is contain user data that logging in to the website while request that page or that view
 
-The code `@raimodule_user_verify(module_id=3)`, you should put before every view function. This code use to verify the user that request the page/view whether the user match with the property that you set or not. You must change module_id to your module ID in real server.
+The code `@raimodule_user_verify(module_id=3)`, you should put before every view function. This code use to verify the user that request the page/view whether the user match with the property that you set or not. You must change module_id to your module ID in the real server.
 
 You can change the property and accessibility in module name **Module Manager**

@@ -45,7 +45,7 @@ RAICoreServices_PublicVersion/static/<your_module_name>/<your_static>
 
 When you have database that contain images. Images will save to the folder media. The image field of model in models.py should set argument like this `image = models.ImageField(upload_to='<your_module_name>/image')`
 
-The image that user uploaded, it will saved in
+The image that user uploaded, it saved in
 
 ```
 RAICoreServices_PublicVersion/media/<your_module_name>/<your_static>

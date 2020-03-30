@@ -24,7 +24,7 @@ RAICoreServices_PublicVersion/rai_modules/<your_module_name>
 ```
 This folder will contain all of your python file. Such as views.py, urls.py, models.py
 
-> Module name should be leading by `rai_`. For Example, `rai_exampleapp`
+> **Module name should be leading by `rai_`. For Example, `rai_exampleapp`**
 
 ### Template
 

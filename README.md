@@ -1,4 +1,4 @@
-# RAICoreServices_PublicVersion
+# RAICoreServices - Public Version (v1.0)
 
 This is the template of Django project of Robotics Laboratory 3 (Smart Lab)
 

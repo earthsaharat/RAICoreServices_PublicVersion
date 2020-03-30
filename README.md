@@ -66,14 +66,35 @@ RAICoreServices_PublicVersion/media/<your_module_name>/image/<image_file>
 
 This project has authentication system with user account and user access permission
 
+### User
+
 Default user is
 ```
 username : admin
 password : 1234567890
 ```
 
-In your views.py you need to import these code first for enable authentication system in your module
+You can add user or edit user in module name **Users** in home page
+
+### Work with views
+
+In your `views.py`, you need to import these code first for enable authentication system in your module
 ``` python
 from rai_modules.rai_user.models import RAIUser
 from rai_modules.rai_module_manager.decorator import raimodule_user_verify
 ```
+
+For the example view
+
+``` python
+@raimodule_user_verify(module_id=3)
+def home(request):
+	raiuser = RAIUser.objects.getFromUser(request.user)
+	return render(request,'rai_exampleapp/home.html')
+```
+
+The variable `raiuser` is contain user data that logging in to the website while request that page or that view
+
+The code `@raimodule_user_verify(module_id=3)`, you should put before every view function. This code use to verify the user that request the page/view whether the user match with the property that you set or not. You must change module_id to your module ID in real server.
+
+You can change the property and accessibility in module name **Module Manager**

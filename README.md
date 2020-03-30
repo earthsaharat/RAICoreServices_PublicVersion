@@ -13,3 +13,4 @@ now you can run this project
 
 ## File system
 
+![](https://github.com/earthsaharat/RAICoreServices_PublicVersion/blob/master/git_supportfile/file_structure.png)

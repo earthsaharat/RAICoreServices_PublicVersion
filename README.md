@@ -11,6 +11,8 @@ You need to follow this project format before upload your code to the real serve
   - [Template](#template)
   - [Static file](#static-file)
   - [Media file](#media-file)
+- [Authentication System](#authentication-system)
+
 
 ## Installation
 
@@ -18,7 +20,7 @@ You need to follow this project format before upload your code to the real serve
 2. Download this git
 3. Run server `python3 manage.py runserver `
 
-now you can run this project
+Now you can run this project
 
 ## File system
 
@@ -58,4 +60,20 @@ The image that user uploaded, it saved in
 
 ```
 RAICoreServices_PublicVersion/media/<your_module_name>/image/<image_file>
+```
+
+## Authentication System
+
+This project has authentication system with user account and user access permission
+
+Default user is
+```
+username : admin
+password : 1234567890
+```
+
+In your views.py you need to import these code first for enable authentication system in your module
+``` python
+from rai_modules.rai_user.models import RAIUser
+from rai_modules.rai_module_manager.decorator import raimodule_user_verify
 ```

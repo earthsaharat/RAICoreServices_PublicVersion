@@ -9,6 +9,8 @@ You need to follow this project format before upload your code to the real serve
 - [File System](#file-system)
   - [Application](#application)
   - [Template](#template)
+  - [Static file](#static-file)
+  - [Media file](#media-file)
 
 ## Installation
 

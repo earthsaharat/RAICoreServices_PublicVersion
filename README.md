@@ -21,8 +21,9 @@ You application/module are stored in
 ```
 RAICoreServices_PublicVersion/rai_modules/<your_module_name>
 ```
+This folder will contain all of your python file. Such as views.py, urls.py, models.py
 
-Module name should be leading by `rai_`. For Example, `rai_exampleapp`
+> Module name should be leading by `rai_`. For Example, `rai_exampleapp`
 
 ### Template
 
@@ -38,4 +39,14 @@ Such as css, javascript, image
 
 ```
 RAICoreServices_PublicVersion/static/<your_module_name>/<your_static>
+```
+
+### Media file
+
+When you have database that contain images. Images will save to the folder media. The image field of model in models.py should set argument like this `image = models.ImageField(upload_to='<your_module_name>/image')`
+
+The image that user uploaded, it will saved in
+
+```
+RAICoreServices_PublicVersion/media/<your_module_name>/<your_static>
 ```

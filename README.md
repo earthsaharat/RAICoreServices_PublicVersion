@@ -7,7 +7,7 @@ You need to follow this project format before upload your code to the real serve
 ## Outline
 - [Installation](#installation)
 - [File System](#file-system)
-  - [Application/Module](#application\/module)
+  - [Application](#application)
   - [Template](#template)
 
 ## Installation
@@ -22,7 +22,7 @@ now you can run this project
 
 <img src="https://github.com/earthsaharat/RAICoreServices_PublicVersion/blob/master/git_supportfile/file_structure_full.png" width="200"/>
 
-### Application/Module
+### Application
 You application/module are stored in 
 
 ```

@@ -12,6 +12,8 @@ You need to follow this project format before upload your code to the real serve
   - [Static file](#static-file)
   - [Media file](#media-file)
 - [Authentication System](#authentication-system)
+  - [User](#user)
+  - [Work with views](#work-with-views)
 
 
 ## Installation

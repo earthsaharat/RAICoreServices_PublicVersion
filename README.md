@@ -91,8 +91,8 @@ For the example view
 ``` python
 @raimodule_user_verify(module_id=3)
 def home(request):
-	raiuser = RAIUser.objects.getFromUser(request.user)
-	return render(request,'rai_exampleapp/home.html')
+  raiuser = RAIUser.objects.getFromUser(request.user)
+  return render(request,'rai_exampleapp/home.html')
 ```
 
 The variable `raiuser` is contain user data that logging in to the website while request that page or that view

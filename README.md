@@ -13,13 +13,13 @@ now you can run this project
 
 ## File system
 
-<img src="https://github.com/earthsaharat/RAICoreServices_PublicVersion/blob/master/git_supportfile/file_structure.png" width="200"/>
+<img src="https://github.com/earthsaharat/RAICoreServices_PublicVersion/blob/master/git_supportfile/file_structure_full.png" width="200"/>
 
 ### Application/Module
 You application/module are stored in 
 
 ```
-rai_modules/<your_module_name>
+RAICoreServices_PublicVersion/rai_modules/<your_module_name>
 ```
 
 Module name should be leading by `rai_`. For Example, `rai_exampleapp`
@@ -29,7 +29,7 @@ Module name should be leading by `rai_`. For Example, `rai_exampleapp`
 Html file
 
 ```
-rai_modules/<your_module_name>/template/<your_html_file>.html
+RAICoreServices_PublicVersion/rai_modules/<your_module_name>/template/<your_html_file>.html
 ```
 
 ### Static file
@@ -37,5 +37,5 @@ rai_modules/<your_module_name>/template/<your_html_file>.html
 Such as css, javascript, image
 
 ```
-static/<your_module_name>/<your_static>
+RAICoreServices_PublicVersion/static/<your_module_name>/<your_static>
 ```

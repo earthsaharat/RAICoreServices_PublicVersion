@@ -7,7 +7,7 @@ You need to follow this project format before upload your code to the real serve
 ## Outline
 - [Installation](#installation)
 - [File System](#file-system)
-  - [Application/Module](#application//module)
+  - [Application/Module](#application\/module)
   - [Template](#template)
 
 ## Installation

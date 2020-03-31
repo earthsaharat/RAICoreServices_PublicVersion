@@ -1,8 +1,6 @@
 from django.shortcuts import render
 
-from rai_modules.rai_module_manager import models as ModuleManager
 from rai_modules.rai_user.models import RAIUser
-
 from rai_modules.rai_module_manager.decorator import raimodule_user_verify
 
 @raimodule_user_verify(module_id=3)

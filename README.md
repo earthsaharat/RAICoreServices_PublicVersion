@@ -43,7 +43,7 @@ This folder will contain all of your python file. Such as views.py, urls.py, mod
 Html file
 
 ```
-RAICoreServices_PublicVersion/rai_modules/<your_module_name>/template/<your_html_file>.html
+RAICoreServices_PublicVersion/rai_modules/<your_module_name>/templates/<your_html_file>.html
 ```
 
 ### Static file
